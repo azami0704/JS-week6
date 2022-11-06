@@ -60,7 +60,6 @@ filter.addEventListener("change", function (e) {
             return item.area === filter.value;
         })
     }
-    console.log(filteredData);
     init(filteredData);
 })
 
